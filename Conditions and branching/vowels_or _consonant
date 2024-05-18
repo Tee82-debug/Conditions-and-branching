@@ -1,0 +1,8 @@
+char = input('Enter an alphabets')
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+if vowels not in ['a', 'e', 'i', 'o', 'u']:
+    print("This is a consonant")
+else:
+    print("It is a vowel ") 
